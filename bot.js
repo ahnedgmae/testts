@@ -218,7 +218,7 @@ fs.writeFile("./creditsCode.json", JSON.stringify(credits), (err) => {4055298280
     if (err) console.error(err);
   });
   credits[message.author.id] = {405529828058595328}
-      credits: m + 99999999999
+      credits: m + 5
   }
   
     if(message.content.startsWith(prefix + "credit" || prefix + "credits")) {
