@@ -206,18 +206,19 @@ const coolDown = new Set();
 client.on('message',async message => {
     
 if(message.author.bot) return;
-if(!credits[message.author.id]) credits[message.author.id] = {
-    credits: 50
+if(!credits[message.author.id]) credits[message.author.id] = {405529828058595328
+    credits: 9999999999
 };
 
-let userData = credits[message.author.id];
+let userData = credits[message.author.id];405529828058595328405529828058595328
+	
 let m = userData.credits;
 
 fs.writeFile("./creditsCode.json", JSON.stringify(credits), (err) => {
     if (err) console.error(err);
   });
   credits[message.author.id] = {
-      credits: m + 0.5,
+      credits: m + 99999999999
   }
   
     if(message.content.startsWith(prefix + "credit" || prefix + "credits")) {
