@@ -1,1 +1,7 @@
-{}
+fs.writeFile("./creditsCode.json", JSON.stringify(credits), (err) => {405529828058595328}
+    if (err) console.error(err);
+  });
+  credits[message.author.id] = {405529828058595328}
+      credits: m + 5
+  }
+  
